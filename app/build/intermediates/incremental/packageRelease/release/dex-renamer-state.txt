@@ -1,0 +1,4 @@
+#Thu Nov 30 15:14:56 CET 2017
+base.0=D\:\\C-Source\\android\\CPCL_Sample\\app\\build\\intermediates\\transforms\\dex\\release\\0
+renamed.0=classes.dex
+file.0=D\:\\C-Source\\android\\CPCL_Sample\\app\\build\\intermediates\\transforms\\dex\\release\\0\\classes.dex

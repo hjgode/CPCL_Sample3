@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\11.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="581f740328e8f80438d9af31a2abee6e64437508">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\15.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="11544a6b1c2abe9017ad8d5118f87da3f81a8e69">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\6.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\1.jar"
+        jumboMode="false"
+        min-sdk-version="7"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c13a6f4407535db18ecd7fd6ad8eb5da3b8040aa">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\3.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02ab3c842f30f7e0907ed422a1279d4426ec4203">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\7.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="646a3ccb19c4c4a65234e723024eb156d8c95cc3">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\8.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\10.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\5.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b27a7a34791cd90b536255baf816ab3559823ba7">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\12.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8cd8c43301a956f577b244668c4ad46ebc584303">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\13.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\4.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1253897d3456f7fda5fe06800dd9331af8e6792">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f867daf08229014ef5f073f6f039c39d99f4dca">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\9.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c3ad44f366b8ce004dc439d0345ff539c4082bbc">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\desugar\release\14.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2eee543a111b6e8adc929038d0e8c1e8410652dd">
+        <dex dex="D:\C-Source\android\CPCL_Sample\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+
+</items>
