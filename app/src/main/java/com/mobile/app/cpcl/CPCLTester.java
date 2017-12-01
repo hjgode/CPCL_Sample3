@@ -2,6 +2,7 @@ package com.mobile.app.cpcl;
 
 import com.mobile.app.assist.AlertView;
 import com.mobile.app.assist.CONSTANTS;
+import com.mobile.app.assist.OptionsActivity;
 import com.mobile.app.assist.PDFprint;
 import com.mobile.app.assist.PermissionsClass;
 import com.mobile.app.assist.ResourceInstaller;
@@ -24,6 +25,9 @@ import android.os.Message;
 import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
 import android.net.Uri;
@@ -95,6 +99,22 @@ public class CPCLTester extends TabActivity implements OnTabChangeListener
 			}
 		}
 	}
+
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.optionsmenu, menu);
+		return true;
+	}
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //respond to menu item selection
+        switch (item.getItemId()) {
+            case R.id.mnuItemSettings:
+                startActivity(new Intent(this, OptionsActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 	void enableCPCLtab(boolean bEnable){
         mTabHost.getTabWidget().getChildTabViewAt(0).setEnabled(bEnable);

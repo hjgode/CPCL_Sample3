@@ -228,7 +228,8 @@ public class PrintPDFmenReplacement extends Activity {
                 Log.d(TAG, "using bitmapfile: " + bitmapFilename);
                 String sPdfFilename = strings[0];
                 PDFprint pdFprint = new PDFprint(_context);
-                bitmap = pdFprint.renderFile(sPdfFilename, 3.0f, bitmapFilename);
+                //use scale=0f for autoscale
+                bitmap = pdFprint.renderFile(sPdfFilename, 0f, bitmapFilename);
                 saveDataForPrint(bitmapFilename, sPdfFilename);
             }catch(IOException ex){
                 count=0;
