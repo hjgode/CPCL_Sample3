@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
+import com.mobile.app.cpcl.CPCLTester;
 import com.tom_roush.pdfbox.pdmodel.PDDocument;
 import com.tom_roush.pdfbox.text.PDFTextStripper;
 
@@ -72,8 +73,7 @@ public class myIntentService extends IntentService {
             //convert file to bitmap
             try {
                 PDFprint pdFprint = new PDFprint(this.getApplicationContext());
-                //use autoscale, set fScale=0f
-                Bitmap bmp = pdFprint.renderFile(sFile, 0f, bitmapFilename);
+                Bitmap bmp = pdFprint.renderFile(sFile, bitmapFilename);
                 if (bmp != null) {
                     ; //Convert OK
                     intentError.putExtra(CONSTANTS.IntentServiceData_RESULT_BITMAP_OK, Activity.RESULT_OK);

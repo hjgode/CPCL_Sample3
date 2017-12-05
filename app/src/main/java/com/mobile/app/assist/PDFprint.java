@@ -98,7 +98,17 @@ public class PDFprint {
      * use scale=0 to let the bitmap autoscale for the printer
      * returns null if error!
      */
-    public Bitmap renderFile(String sFile, float fScale, String sFileBmpOut) {
+    public Bitmap renderFile(String sFile, String sFileBmpOut) {
+        //load settings
+        Options options=new Options(context);
+        float fScale=0f;
+        options.loadOptions();
+        if(options._bUseAutoscale)
+            fScale=0f;
+        else
+            fScale=options._fManualScale;
+        printerWidth=options._iPrinterwidth;
+
         //disableButtons();
         File theFile = new File(sFile);
         // Render the page and save it to an image file
@@ -208,7 +218,7 @@ public class PDFprint {
         //convert file to bitmap
         try {
             PDFprint pdFprint = new PDFprint(this.context);
-            Bitmap bmp = pdFprint.renderFile(sFile, fScale, bitmapFilename);
+            Bitmap bmp = pdFprint.renderFile(sFile, bitmapFilename);
             if (bmp != null) {
                 ; //Convert OK
                 return bmp;

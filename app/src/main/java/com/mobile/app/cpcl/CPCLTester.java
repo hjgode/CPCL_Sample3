@@ -2,6 +2,7 @@ package com.mobile.app.cpcl;
 
 import com.mobile.app.assist.AlertView;
 import com.mobile.app.assist.CONSTANTS;
+import com.mobile.app.assist.Options;
 import com.mobile.app.assist.OptionsActivity;
 import com.mobile.app.assist.PDFprint;
 import com.mobile.app.assist.PermissionsClass;
@@ -12,6 +13,7 @@ import com.mobile.app.port.wifi.WiFiConnectMenu;
 import com.sewoo.port.android.BluetoothPort;
 import com.sewoo.port.android.WiFiPort;
 
+import android.app.Activity;
 import android.app.TabActivity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -109,12 +111,28 @@ public class CPCLTester extends TabActivity implements OnTabChangeListener
         //respond to menu item selection
         switch (item.getItemId()) {
             case R.id.mnuItemSettings:
-                startActivity(new Intent(this, OptionsActivity.class));
+                startActivityForResult(new Intent(this, OptionsActivity.class), CONSTANTS.requestOptions);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+		if (requestCode == CONSTANTS.requestOptions) {
+			if(resultCode == Activity.RESULT_OK){
+				;//String result=data.getStringExtra("result");
+				//Options options=new Options(this);
+				//options.loadOptions();
+
+			}
+			if (resultCode == Activity.RESULT_CANCELED) {
+				//Write your code if there's no result
+			}
+		}
+	}//onActivityResult
 
 	void enableCPCLtab(boolean bEnable){
         mTabHost.getTabWidget().getChildTabViewAt(0).setEnabled(bEnable);

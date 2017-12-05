@@ -7,8 +7,12 @@ package com.mobile.app.assist;
 public class CONSTANTS {
     public static final String ACTION = "myIntentService";
 
+    public static int requestOptions=1;
+
     public static final String PrefUseAutoscale="PrefUseAutoscale";
     public static final String PrefPrinterWidth="PrefPrinterWidth";
+    public static final String PrefScaleValue="PrefScaleValue";
+    public static final String PrefAutoScale="PrefAutoScale";
 
     public static final String PrefBitmapfilename="PrefBitmapfilename";
     public static final String PrefPDFfilename="PrefPDFfilename";

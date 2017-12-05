@@ -3,12 +3,12 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
     }
-    compileSdkVersion 26
+    compileSdkVersion 23
     buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "com.mobile.app.cpcl"
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion 23
     }
     buildTypes {
         release {
@@ -27,6 +27,6 @@ android {
 dependencies {
     implementation files('libs/Sewoo_Android_1093.jar')
     implementation project(':PDFBox1891-library-debug')
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:23.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 }

@@ -4,8 +4,16 @@
             "outputFile": "D:\\C-Source\\android\\CPCL_Sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\E841719\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\7b2db46eae93faa8d660cc574767908c\\res\\values-v12\\values-v12.xml",
+                    "source": "C:\\Users\\E841719\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\63e141033c053c5193bb93d5bc2c0d9c\\res\\values-v12\\values-v12.xml",
                     "from": {
+                        "startLines": "4,7,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "292,516,716,835",
+                        "endLines": "6,9,10,11",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "511,711,830,925"
+                    },
+                    "to": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "55,279,479,598",
